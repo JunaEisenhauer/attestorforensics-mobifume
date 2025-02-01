@@ -1,0 +1,51 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [2.5.4] - 2021-12-01 (Latest)
+### Fixed
+- Calculation result after save (was not updated in group view)
+
+### Added
+- Log messages
+
+### Changed
+- Classes packages to domain-oriented packages
+- Cleanup code (improve code quality)
+- Refactor events and separate events
+- Refactor settings
+- Refactor device errors
+- Log information and details
+
+## [2.5.3] - 2021-08-17
+### Fixed
+- Calibration data request (displayed in service)
+
+### Changed
+- View software refactoring (little changes in view display)
+
+## [2.5.2] - 2021-07-14
+### Fixed
+- Missing i18n resource for calibration dialog
+
+## [2.5.1] - 2021-06-17
+### Fixed
+- Group logger bugfix (old group logs got log entries from newer groups)
+- Group logger state fix
+- Group timer (heat/purge) reset bugfix (when added time manually with +5:00 and it was over the maximum value, the time was reset to the maximum value when opening the group settings)
+- Wi-fi interface connection fix on foreign os languages
+- Device timer crash (114 minutes limit)
+
+## [2.5.0] - 2021-05-25
+### Added
+- Log mover to usb
+- Updater
+
+### Fixed
+- Installer autostart bugfix
+
+## [2.4.0] - 2020-10-30
+### Added
+- Group/room chart
